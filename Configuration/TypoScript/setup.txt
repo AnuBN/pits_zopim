@@ -1,0 +1,51 @@
+
+plugin.tx_pitszopim_pitszopim {
+	view {
+		templateRootPaths.0 = {$plugin.tx_pitszopim_pitszopim.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_pitszopim_pitszopim.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_pitszopim_pitszopim.view.layoutRootPath}
+	}
+}
+
+plugin.tx_pitszopim._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-pits-zopim table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-pits-zopim table th {
+		font-weight:bold;
+	}
+
+	.tx-pits-zopim table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)
+
+ # Module configuration
+module.tx_pitszopim_web_pitszopimpitszopimmod {
+	view {
+		templateRootPaths.0 = {$module.tx_pitszopim_pitszopimmod.view.templateRootPath}
+		partialRootPaths.0 = {$module.tx_pitszopim_pitszopimmod.view.partialRootPath}
+		layoutRootPaths.0 = {$module.tx_pitszopim_pitszopimmod.view.layoutRootPath}
+	}
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-11-04T11:07:50Z" product-name="pits_zopim">
+		<header/>
+		<body>
+			<trans-unit id="tx_pitszopim_domain_model_project">
+				<source>Project</source>
+			</trans-unit>
+			<trans-unit id="tx_pitszopim_domain_model_project.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_zopim_wizard.title">
+				<source>Zopim Chat Widget</source>
+			</trans-unit>
+			<trans-unit id="tx_zopim_wizard.description">
+				<source>Add a zopim/zendesk chat widget to page</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
