@@ -26,9 +26,9 @@ if (TYPO3_MODE === 'BE') {
         'pitszopimmod', // Submodule key
         '',                     // Position
         array(
-            'Project' => 'new',
-            
+            'Zopimmod' => 'new',
         ),
+
         array(
             'access' => 'user,group',
             'icon'   => 'EXT:' . $_EXTKEY . '/ext_icon.gif',
