@@ -1,9 +1,9 @@
 
 plugin.tx_pitszopim_pitszopim {
     view {
-        templateRootPaths.0 = {$plugin.tx_pitszopim_pitszopim.view.templateRootPath}
-        partialRootPaths.0 = {$plugin.tx_pitszopim_pitszopim.view.partialRootPath}
-        layoutRootPaths.0 = {$plugin.tx_pitszopim_pitszopim.view.layoutRootPath}
+        templateRootPaths = {$plugin.tx_pitszopim_pitszopim.view.templateRootPath}
+        partialRootPaths = {$plugin.tx_pitszopim_pitszopim.view.partialRootPath}
+        layoutRootPaths = {$plugin.tx_pitszopim_pitszopim.view.layoutRootPath}
     }
 }
 
@@ -42,13 +42,7 @@ plugin.tx_pitszopim._CSS_DEFAULT_STYLE (
 )
 
  # Module configuration
-module.tx_pitszopim_web_pitszopimpitszopimmod {
-    view {
-        templateRootPaths.0 = {$module.tx_pitszopim_pitszopimmod.view.templateRootPath}
-        partialRootPaths.0 = {$module.tx_pitszopim_pitszopimmod.view.partialRootPath}
-        layoutRootPaths.0 = {$module.tx_pitszopim_pitszopimmod.view.layoutRootPath}
-    }
-}
+module.tx_pitszopim_pitszopimmod.view > plugin.tx_pitszopim_pitszopim.view
 
 [globalVar = LIT:0 < {$module.tx_pitszopim_pitszopimmod.attrib.api}]
 page.999999 = TEXT

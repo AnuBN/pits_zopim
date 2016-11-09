@@ -13,11 +13,11 @@ plugin.tx_pitszopim_pitszopim {
 module.tx_pitszopim_pitszopimmod {
     view {
         # cat=module.tx_pitszopim_pitszopimmod/file; type=string; label=Path to template root (BE)
-        templateRootPath = EXT:pits_zopim/Resources/Private/Backend/Templates/
+        templateRootPath = EXT:pits_zopim/Resources/Private/Templates/
         # cat=module.tx_pitszopim_pitszopimmod/file; type=string; label=Path to template partials (BE)
-        partialRootPath = EXT:pits_zopim/Resources/Private/Backend/Partials/
+        partialRootPath = EXT:pits_zopim/Resources/Private/Partials/
         # cat=module.tx_pitszopim_pitszopimmod/file; type=string; label=Path to template layouts (BE)
-        layoutRootPath = EXT:pits_zopim/Resources/Private/Backend/Layouts/
+        layoutRootPath = EXT:pits_zopim/Resources/Private/Layouts/
     }
     attrib {
         # cat=module.tx_pitszopim_pitszopimmod//file; type=string; label= Enter the API key for the admin user
