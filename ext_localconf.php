@@ -8,11 +8,9 @@ if (!defined('TYPO3_MODE')) {
     'Pitszopim',
     array(
         'Project' => 'show',
-        
     ),
     // non-cacheable actions
     array(
         'Project' => 'show',
-        
     )
 );
