@@ -19,4 +19,9 @@ module.tx_pitszopim_pitszopimmod {
 		# cat=module.tx_pitszopim_pitszopimmod/file; type=string; label=Path to template layouts (BE)
 		layoutRootPath = EXT:pits_zopim/Resources/Private/Backend/Layouts/
 	}
+	attrib {
+
+		# cat=module.tx_pitszopim_pitszopimmod//file; type=string; label= Enter the API key for the admin user
+		api = 0
+	}
 }
