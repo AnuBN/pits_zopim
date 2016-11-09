@@ -31,14 +31,6 @@ namespace PITS\PitsZopim\Controller;
  */
 class ProjectController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-
-    /**
-     * projectRepository
-     *
-     * @var \PITS\PitsZopim\Domain\Repository\ProjectRepository
-     * @inject
-     */
-    protected $projectRepository = NULL;
     
     /**
      * action show
@@ -50,17 +42,6 @@ class ProjectController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
     {
         $api = $this->settings['flexform']['api'];
         $this->view->assign('api', $api);
-    }
-
-    /**
-     * action new
-     *
-     * @param \PITS\PitsZopim\Domain\Model\Project $project
-     * @return void
-     */
-    public function newAction()
-    {
-        $this->view->assign('project', $project);
     }
 
 }
