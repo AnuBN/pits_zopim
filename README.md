@@ -10,7 +10,7 @@ Live chat is the fastest way to engage your customers. Talk to your customers in
  
  * PROVIDE PERSONALIZED SERVICE
 
-Only in Zopim.
+Only in [Zopim](https://www.zopim.com/).
 
 Zopim is now called Zendesk Chat
 and can be integrated into your TYPO3 website now. 
