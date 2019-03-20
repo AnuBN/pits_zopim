@@ -22,8 +22,7 @@ $EM_CONF[$_EXTKEY] = array(
 
 Only in Zopim.
 
-Zopim is now called Zendesk Chat
-and can be integrated into your TYPO3 website now. ',
+Zopim is now called Zendesk Chat and can be integrated into your TYPO3 website now. ',
     'category' => 'plugin',
     'author' => 'Anu Bhuvanendran Nair',
     'author_email' => 'anu.bn@pitsolutions.com',
